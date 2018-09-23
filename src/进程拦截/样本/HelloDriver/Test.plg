@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Test - Win32 Debug--------------------
+</h3>
+
+系统找不到指定的路径。
+BUILD: Object root set to: ==> objchk
+BUILD: Adding /Y to COPYCMD so xcopy ops won't hang.
+BUILD: /i switch ignored
+BUILD: Compile and Link for i386
+BUILD: Loading D:\WINDDK\2600\build.dat...
+BUILD: Computing Include file dependencies:
+BUILD: Examining g:\win2007\driver\hellodriver directory for files to compile.
+    g:\win2007\driver\hellodriver 
+    g:\win2007\driver\hellodriver - 1 source files (33 lines)
+BUILD: Saving D:\WINDDK\2600\build.dat...
+BUILD: Compiling g:\win2007\driver\hellodriver directory
+Compiling - hellowdm.c for i386
+BUILD: Linking g:\win2007\driver\hellodriver directory
+Linking Executable - objchk\i386\hellowdm.sys for i386
+BUILD: Done
+
+    2 files compiled
+    1 executable built
+MakeDriver D:\WINDDK\2600 G: %WORLPATH% CHECKED
+
+
+
+<h3>Results</h3>
+Test.sys - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

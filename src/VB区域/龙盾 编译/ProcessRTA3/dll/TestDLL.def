@@ -1,0 +1,5 @@
+LIBRARY TestDLL
+EXPORTS
+    DLLMain
+    FreeHook
+    EnableHook

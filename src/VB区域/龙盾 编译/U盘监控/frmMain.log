@@ -1,0 +1,7 @@
+行 23: 控件 ListDrv 的类 MSComctlLib.ListView 不是一个已加载的控件类。
+行 29: 属性名 _ExtentX 在 ListDrv 中是无效的。
+行 30: 属性名 _ExtentY 在 ListDrv 中是无效的。
+行 31: 属性名 LabelWrap 在 ListDrv 中是无效的。
+行 32: 属性名 HideSelection 在 ListDrv 中是无效的。
+行 33: 属性名 _Version 在 ListDrv 中是无效的。
+行 38: 属性名 NumItems 在 ListDrv 中是无效的。

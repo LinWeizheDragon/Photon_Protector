@@ -1,0 +1,8 @@
+TARGETNAME=hookzwcreateprocess
+TARGETTYPE=DRIVER
+TARGETPATH=obj
+
+
+INCLUDES=.\
+
+SOURCES = hookzwcreateprocess.c

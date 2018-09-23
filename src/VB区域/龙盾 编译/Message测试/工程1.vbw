@@ -1,0 +1,13 @@
+MYRECEIVER = 65, 130, 1060, 664, , 293, 149, 1288, 683, C
+mdMsg = 61, 104, 1056, 638, 
+frmTip = 0, 0, 0, 0, C, 88, 130, 1083, 664, C
+mdIniFIle = 0, 0, 0, 0, C
+mdGetIcon = 88, 116, 1083, 650, C
+mdRoundForm = 0, 0, 0, 0, C
+mdSupersleep = 0, 0, 0, 0, C
+mdTop = 0, 0, 0, 0, C
+frmRec = 110, 73, 1105, 607, , 354, 230, 1349, 764, C
+MDebug = 0, 0, 0, 0, C
+CSharedString = 0, 0, 0, 0, C
+clsWaitableTimer = 132, 174, 1127, 708, C
+mdFileMap = 88, 116, 1083, 650, C

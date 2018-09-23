@@ -1,0 +1,27 @@
+// ontrol.cpp: implementation of the Control class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "prmdlg.h"
+#include "ontrol.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+Control::Control()
+{
+
+}
+
+Control::~Control()
+{
+
+}

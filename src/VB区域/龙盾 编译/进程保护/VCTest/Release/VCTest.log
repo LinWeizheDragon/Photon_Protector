@@ -1,0 +1,25 @@
+﻿生成启动时间为 2013/2/7 星期四 10:49:57。
+     1>项目“C:\Users\Administrator\Desktop\意天进程保护组件独家破解版\VCTest\VCTest.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\VCTest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\VCTest.res" VCTest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\VCTest.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\VCTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Desktop\意天进程保护组件独家破解版\VCTest\Release\VCTest.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\VCTest.lib" /MACHINE:X86 Release\VCTest.res
+         Release\stdafx.obj
+         Release\VCTest.obj
+         Release\VCTestDlg.obj
+         VCTest.vcxproj -> C:\Users\Administrator\Desktop\意天进程保护组件独家破解版\VCTest\Release\VCTest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release\VCTest.exe;#1" /manifest res\VCTest.manifest Release\VCTest.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\VCTest.unsuccessfulbuild”。
+         正在对“Release\VCTest.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\Desktop\意天进程保护组件独家破解版\VCTest\VCTest.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.52

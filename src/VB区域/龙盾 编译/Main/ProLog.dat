@@ -1,0 +1,31 @@
+===============================
+时间：2013-1-2 16:03:18
+正在创建进程：C:\Documents and Settings\Administrator\桌面\龙盾 编译\Main\USBRTA.exe
+结果：用户选择添加到信任列表
+已允许运行
+===============================
+时间：2013-1-2 16:03:22
+正在创建进程：C:\Documents and Settings\Administrator\桌面\龙盾 编译\Main\RegRTA.exe
+结果：用户选择添加到信任列表
+已允许运行
+===============================
+时间：2013-1-2 16:03:40
+正在创建进程：C:\Documents and Settings\Administrator\桌面\龙盾 安装.exe
+已阻止运行
+===============================
+时间：2013-2-9 16:30:08
+explorer.exe正在创建进程：C:\WINDOWS\system32\notepad.exe
+执行出错
+===============================
+时间：2013-2-9 16:30:30
+explorer.exe正在创建进程：C:\WINDOWS\system32\taskmgr.exe
+执行出错
+===============================
+时间：2013-2-9 16:30:47
+explorer.exe正在创建进程：C:\WINDOWS\system32\taskmgr.exe
+已允许运行
+===============================
+时间：2013-2-9 16:33:40
+explorer.exe正在创建进程：C:\WINDOWS\system32\notepad.exe
+无数字签名
+已允许运行

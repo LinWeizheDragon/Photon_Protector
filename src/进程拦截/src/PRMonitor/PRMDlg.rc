@@ -1,0 +1,127 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 186, 149
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PRMonitor"
+FONT 10, "System"
+BEGIN
+    GROUPBOX        "进程监控",IDC_STATIC,7,7,172,40
+    GROUPBOX        "注册表监控",IDC_STATIC,7,50,172,40
+    PUSHBUTTON      "开启",IDC_BTN_PMON,25,22,37,15,BS_FLAT
+    PUSHBUTTON      "关闭",IDC_BTN_PMOFF,109,22,37,15,BS_FLAT | WS_DISABLED
+    PUSHBUTTON      "开启",IDC_BTN_RMON,22,65,37,15,BS_FLAT
+    PUSHBUTTON      "关闭",IDC_BTN_RMOFF,109,66,37,15,BS_FLAT | WS_DISABLED
+    CONTROL         "",IDC_SA,"Static",SS_LEFTNOWORDWRAP | SS_SUNKEN | 
+                    WS_GROUP,98,132,81,10
+    GROUPBOX        "内核监控",IDC_STATIC,7,91,172,40
+    PUSHBUTTON      "开启",IDC_BTN_MMON,20,105,37,15,BS_FLAT
+    PUSHBUTTON      "关闭",IDC_BTN_MMOFF,109,106,37,15,BS_FLAT | WS_DISABLED
+    PUSHBUTTON      "Button1",IDC_BUTTON1,18,133,63,9
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 142
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS DISCARDABLE 
+BEGIN
+    "1",            ID_ACCEL40001,          VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

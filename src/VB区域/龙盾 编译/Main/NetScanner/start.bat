@@ -1,0 +1,1 @@
+"%cd%\koemsec1.exe" -Start

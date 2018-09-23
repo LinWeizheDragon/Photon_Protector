@@ -1,0 +1,40 @@
+=============
+2013-2-4 20:15:35
+修改路径：HKEY_USERS\S-1-5-21-1757981266-796845957-1801674531-500\Software\Microsoft\Windows\CurrentVersion\Run
+修改项目：记事本
+已删除
+病毒：C:\Documents and Settings\Administrator\桌面\龙盾 编译\注册表监视\复件 测试添加启动项.exe
+病毒描述：测试开机启动项|测试开机启动使用
+=============
+2013-2-6 10:31:45
+修改路径：HKEY_USERS\S-1-5-21-1757981266-796845957-1801674531-500\Software\Microsoft\Windows\CurrentVersion\Run
+修改项目：记事本
+未删除，已结束进程
+病毒：C:\Documents and Settings\Administrator\桌面\龙盾 编译\注册表监视\测试添加启动项.exe
+病毒描述：测试开机启动项|测试开机启动使用
+=============
+2013-2-6 10:32:08
+修改路径：HKEY_USERS\S-1-5-21-1757981266-796845957-1801674531-500\Software\Microsoft\Windows\CurrentVersion\Run
+修改项目：internat.exe
+目标："C:\WINDOWS\system32\ctfmon.exe"已放行
+=============
+2013-2-6 10:32:26
+修改路径：HKEY_USERS\S-1-5-21-1757981266-796845957-1801674531-500\Software\Microsoft\Windows\CurrentVersion\Run
+修改项目：记事本
+已删除
+病毒：C:\Documents and Settings\Administrator\桌面\龙盾 编译\注册表监视\复件 测试添加启动项.exe
+病毒描述：测试开机启动项|测试开机启动使用
+=============
+2013-2-10 9:45:59
+修改路径：HKEY_USERS\S-1-5-21-1757981266-796845957-1801674531-500\Software\Microsoft\Windows\CurrentVersion\Run
+修改项目：记事本
+未删除，已结束进程
+病毒：C:\Documents and Settings\Administrator\桌面\龙盾 编译\注册表监视\测试添加启动项.exe
+病毒描述：测试开机启动项|测试开机启动使用
+=============
+2013-2-10 10:15:34
+修改路径：HKEY_USERS\S-1-5-21-1757981266-796845957-1801674531-500\Software\Microsoft\Windows\CurrentVersion\Run
+修改项目：记事本
+未删除，已结束进程
+病毒：C:\Documents and Settings\Administrator\桌面\龙盾 编译\注册表监视\测试添加启动项.exe
+病毒描述：测试开机启动项|测试开机启动使用

@@ -1,0 +1,100 @@
+[Root]
+Most Recent Package=进程管理器
+
+
+[Package|进程管理器|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Administrator\桌面\Play78Process\包
+
+[Package|进程管理器|Configure DAO ISAMs]
+Applicable=No
+
+[Package|进程管理器|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|进程管理器|Files Found]
+
+[Package|进程管理器|Files Released]
+
+[Package|进程管理器|Missing Dependency Information]
+C:\WINDOWS\system32\shlwapi.dll=
+C:\WINDOWS\system32\psapi.dll=
+
+[Package|进程管理器|Out-of-Date Dependency Information]
+
+[Package|进程管理器|Files Added]
+
+[Package|进程管理器|Files Removed]
+
+[Package|进程管理器|Files In Project]
+C:\Documents and Settings\Administrator\桌面\Play78Process\进程管理器.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6CHS.DLL=Yes
+C:\WINDOWS\system32\psapi.dll=Yes
+C:\WINDOWS\system32\shlwapi.dll=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCCHS.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|进程管理器|Configure Registry Files]
+Applicable=No
+
+[Package|进程管理器|Configure Remote Servers]
+Applicable=No
+
+[Package|进程管理器|Install Locations]
+C:\Documents and Settings\Administrator\桌面\Play78Process\进程管理器.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6CHS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\psapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\shlwapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCCHS.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|进程管理器|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Administrator\桌面\Play78Process\进程管理器.exe=Yes
+
+[Package|进程管理器|Distribution]
+Type=single
+Size=
+Title=进程管理器
+
+[Package|进程管理器|IconGroups]
+Group0=进程管理器
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|进程管理器|进程管理器]
+Icon1=进程管理器.exe
+Title1=进程管理器
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|进程管理器|Package]
+PackageFolder=C:\Documents and Settings\Administrator\桌面\Play78Process\包
+ProjectFolder=C:\Documents and Settings\Administrator\桌面\Play78Process
+ServerSideCab=
+File1=C:\Documents and Settings\Administrator\桌面\Play78Process\包\setup.exe
+File2=C:\Documents and Settings\Administrator\桌面\Play78Process\包\Setup.Lst
+File3=C:\Documents and Settings\Administrator\桌面\Play78Process\包\进程管理器.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

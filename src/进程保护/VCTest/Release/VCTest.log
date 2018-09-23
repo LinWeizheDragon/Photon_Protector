@@ -1,0 +1,25 @@
+﻿生成启动时间为 2013/10/2 星期三 12:34:08。
+     1>项目“E:\360data\重要数据\桌面\意天进程保护组件独家破解版\VCTest\VCTest.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Release\进程保护模块.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\VCTest.res" VCTest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\进程保护模块.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\进程保护模块.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\360data\重要数据\桌面\意天进程保护组件独家破解版\VCTest\Release\进程保护模块.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\进程保护模块.lib" /MACHINE:X86 Release\VCTest.res
+         Release\stdafx.obj
+         Release\VCTest.obj
+         Release\VCTestDlg.obj
+         VCTest.vcxproj -> E:\360data\重要数据\桌面\意天进程保护组件独家破解版\VCTest\Release\进程保护模块.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release\进程保护模块.exe;#1" /manifest res\VCTest.manifest "Release\进程保护模块.exe.intermediate.manifest" "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\进程保护模块.unsuccessfulbuild”。
+         正在对“Release\进程保护模块.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\360data\重要数据\桌面\意天进程保护组件独家破解版\VCTest\VCTest.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.38

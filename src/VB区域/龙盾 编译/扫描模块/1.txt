@@ -1,0 +1,17 @@
+exe.
+com.
+bat.
+cmd
+pif
+src
+lnk
+txt
+ini
+inf
+reg
+ssys
+vxd
+dll
+rar
+zip
+html

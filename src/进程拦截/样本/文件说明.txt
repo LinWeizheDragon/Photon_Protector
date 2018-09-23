@@ -1,0 +1,8 @@
+INCLUDESS是你要包含的头文件，其实可不必每个头文件都写，只要使用.\表示当前路径即可。
+SOURCES则是你的源问件，如果只用单个的就写可写成SOURCES=HelloDriver.c，如果是多个则可使用\来换行说明，例如：
+SOURCES=ch1.c \
+        ch2.c \
+	...
+MAKEFILES则都不用修改
+
+

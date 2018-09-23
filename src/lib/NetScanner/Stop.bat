@@ -1,0 +1,1 @@
+koemsec1.exe -Stop

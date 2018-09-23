@@ -1,0 +1,8 @@
+【1】运行 demo 请按以下步骤进行：
+	1>. 将 files.rar 解压
+	2>. 安装并启动查杀服务：
+		* 运行解压后的文件夹里的 install.bat
+		* 运行解压后的文件夹里的 start.bat
+	3>. 启动 demo 里的 kcldscantest.exe 并按提示即可演示全盘扫描及自定义扫描
+【2】前端调用 demo 代码见 test.rar
+【3】files 文件夹下的 Stop.bat 用于停止查杀服务；Uninstall 用于卸载服务

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Demo">
+</Property><Property Name="解决方案文件" Value="C:\Users\Administrator\Desktop\炫彩界面库(DirectUI,v1.5.1)\模仿360安全卫士\Demo.sln">
+</Property><Property Name="用户选项文件" Value="C:\Users\Administrator\Desktop\炫彩界面库(DirectUI,v1.5.1)\模仿360安全卫士\Demo.suo">
+</Property><Property Name="Date" Value="2013年1月6日 星期日">
+</Property><Property Name="Time" Value="17:25">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Demo.sln" Description="文件已成功备份为 C:\Users\Administrator\Desktop\炫彩界面库(DirectUI,v1.5.1)\模仿360安全卫士\Demo.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="Demo.suo" Description="文件已成功备份为 C:\Users\Administrator\Desktop\炫彩界面库(DirectUI,v1.5.1)\模仿360安全卫士\Demo.suo.old">
+</Event><Event ErrorLevel="0" Project="Demo" Source="Demo\Demo.vcproj" Description="Converting project file 'C:\Users\Administrator\Desktop\炫彩界面库(DirectUI,v1.5.1)\模仿360安全卫士\Demo\Demo.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Demo" Source="Demo\Demo.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Demo" Source="Demo\Demo.vcproj" Description="Done converting to new project file 'C:\Users\Administrator\Desktop\炫彩界面库(DirectUI,v1.5.1)\模仿360安全卫士\Demo\Demo.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Demo" Source="Demo\Demo.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Demo.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="Demo.sln" Description="Converted">
+</Event></UpgradeLog>

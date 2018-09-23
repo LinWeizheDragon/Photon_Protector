@@ -1,0 +1,5 @@
+DllMod = 44, 58, 1006, 581, 
+ShareMemMod = 0, 0, 0, 0, C
+msgHook = 0, 0, 0, 0, C
+ApiHOOK = 159, 129, 1086, 599, 
+InjectMod = 0, 0, 0, 0, C

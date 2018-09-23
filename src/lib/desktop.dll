@@ -1,0 +1,8 @@
+[.ShellClassInfo]
+IconFIle=文件夹安全验证图标.ico
+IconResource=文件夹安全验证图标.ico,0
+IconIndex= 0
+InfoTip=龙盾已标识，安全可双击
+[{BE098140-A513-11D0-A3A4-00C04FD706EC}]
+Attributes=1
+

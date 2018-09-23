@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<modalWindow left="400" top="200" width="300" height="300" value="炫彩界面库-XML测试">
+    <button id="2" left="44" top="50" width="100" height="33" value="按钮2" tooltips="按钮提示2" />
+    <check id="4" left="45" top="113" width="60" height="20" value="check" />
+    <check id="5" left="46" top="139" width="60" height="20" value="check" />
+    <radio id="6" left="151" top="112" width="60" height="20" value="radio" />
+    <radio id="7" left="150" top="145" width="60" height="20" value="radio" />
+    <edit id="3" left="169" top="53" width="100" height="20" />
+</modalWindow>

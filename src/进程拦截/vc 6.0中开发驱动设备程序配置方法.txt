@@ -1,0 +1,79 @@
+vc 6.0中开发驱动设备程序配置方法
+
+    刚开始利用ddk开发驱动程序的时候采用的是ultraedit编辑工具,然后编译安装驱动程序.
+参考www.USBSOLUTION.COM,现在介绍在vc中开发驱动程序的配置方法.
+一. 准备工作 
+    1.首先创建一个你的驱动工程文件目录。这个目录下用来放置你的各个驱动工程文件夹。(比如我在D盘创建了一个MyDrivers文件夹作为我的驱动工程文件目录) 
+    2.然后添加两个用户环境变量，一个是DDKROOT,他的值应该是你所安装DDK的根目录。(比如在安装DDK时安装到了d:\WINDDK\2600,那么 DDKROOT的值应该为d:\WINDDK\2600),另外一个变量是WORKPATH,这个变量的值就应该是你第一步所创建的驱动工程目录的路径。(若按本文，WORKPATH的值应该是D:\MyDrivers ),这两个变量会在我们接下来的工程配置中要用到,当然既然是变量，他们的名称是随你的喜欢了。 
+    3.最后在D:\MyDrivers下创建一个名称为DIRS的无扩展名的文件。用记事本打开它，写上 DIRS=Driver1。Driver1是你的驱动文件所在的文件夹名. 
+    4.写一个MakeDriver.bat批处理文件.如下.(直接copy,不用修改)
+
+@echo off
+
+if "%1"=="" goto usage1
+if "%3"=="" goto usage2
+if not exist %1\bin\setenv.bat goto usage3
+
+
+call %1\BIN\setenv %1 %4
+
+%2
+cd %3
+build -b -w %5 %6 %7 %8
+goto ok
+
+:usage1
+echo Error: the first parameter is NULL!
+goto exit
+
+:usage2
+echo Error: the third parameter is NULL! 
+goto exit
+
+:usage3
+echo Error: %1\bin\setenv.bat not exist! 
+goto exit
+
+:ok
+echo MakeDriver %1 %2 %3 %4 
+:exit
+
+二.建立一个Makefile工程 
+下面我将要建立一个Driver1的工程。他的路径将是D:\MyDrivers\Driver1 
+    1.打开vc6.0,建立一个Makefile的新工程,输入工程名(比如:Driver1)及路径(我们要选择你所创建的驱动工程文件目录D:\MyDrivers)。 
+    2.在Debug配置对话框中输入如下： 
+    Build Command Line: MakeDriver %DDKROOT% D: %WORKPATH% CHECKED 
+    注意:D: %WORKPATH% CHECKED ,如果你的驱动工程文件的目录为E:\myDrivers
+    则应该修改为
+    Build Command Line: MakeDriver %DDKROOT% E: %WORKPATH% CHECKED 
+    这个地方曾经出错,调试了半天,haha
+    Rebuild all optines: -nmake/a 
+    Output file name: 改为sys扩展文件( 比如: Driver1.sys ) 
+    3.在Release配置对话框中输入如下： 
+    Build Command Line: MakeDriver %DDKROOT% D: %WORKPATH% FREE 
+    Rebuild all optines: -nmake/a 
+    Output file name: 改为sys扩展文件( 比如: Driver1.sys ) 
+    4.工程配置结束，选择Finish按钮 
+
+    这时我们可以看到我们的驱动工程文件目录中已经有了一个Driver1的工程文件夹，我们的驱动程序就放在这个文件夹下面。 
+
+三.还需要两个文件 
+    还有两个文件是必须的 makefile和sources,将他们拷贝到工程文件夹，也就是D:\MyDrivers\Driver1中,但sources文件一般需要我们改写，makefile直接从ddk目录中拷贝来一个放在工程文件夹下就行了。
+    在sources文件中一般需要改写的部分如下： 
+TARGETNAME=DRIVER1         
+
+INCLUDES=$(DDKROOT)\inc; \ 
+$(DDKROOT)\inc\DDK 
+
+TARGETLIBS=$(DDK_LIB_PATH)\usbd.lib \ 
+$(DDK_LIB_PATH)\ntoskrnl.lib 
+
+SOURCES = driver1.cpp 
+
+   TARGETNAME 的值是你驱动程序的名字，比如我的会输出DRIVER1.SYS 
+   INCLUDES 将所有你所用到的内核函数，他们所在的头文件的路径添加进来。 
+   TARGETLIBS 将所有你所用到的内核函数，他们所在的库文件的路径添加进来。 
+   SOURCES 就是你工程文件夹需要编译的所有文件名，包括.CPP,.C,.RC文件 
+   好了，基本上可以编写驱动程序了. 
+   然后你就可以编写windows程序一样,写驱动程序.
+   然后我已经做了一个样本，就是样本文件夹，你把里面文件烤到你建的驱动工程文件目录下，如果你前面配置没错的话，那你编译它，就可在objchk\i386文件夹里看到HelloWDM.sys，那就恭喜你配置成功了。

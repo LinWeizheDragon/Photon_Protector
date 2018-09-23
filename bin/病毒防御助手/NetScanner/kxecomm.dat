@@ -1,0 +1,5 @@
+[ProductInfo]
+kxebase.dll=SOFTWARE\NETBAI\KXEngine
+scom.dll=SOFTWARE\NETBAI\KXEngine\CLASSES_ROOT
+[SPRoot]
+SPRoot=SOFTWARE\NETBAI\KXEngine\SP_ROOT

@@ -1,0 +1,207 @@
+2013-03-23 19:34:33,403 INFO kxebase:To start debugging.
+2013-03-23 19:34:33,404 INFO kxethr:To start debugging.
+2013-03-23 19:34:33,404 DEBUG kxebase:It failed to RegOpenKey SOFTWARE\Kingsoft\KISCommon\KXEngine\KxEServ\PluginList with error 0x00000002
+2013-03-23 19:34:33,426 INFO KxEPipe:To start debugging.
+2013-03-23 19:34:33,435 FATAL kxebase:It failed to create the SP "fc02f150-270d-4b19-a4bd-bab72f89ae69" with error:	0x81000004
+2013-03-23 19:34:33,436 FATAL kxebase:It failed to _load_and_start_sp with error:	0x81000004
+2013-03-23 19:34:33,620 INFO KxEScanServiceControl:To start debugging.
+2013-03-23 19:34:33,659 INFO KxEScanSystem:To start debugging.
+2013-03-23 19:34:34,471 NOTICE KxEScanServiceControl:KxEScanSPCore Initialize Result:0
+2013-03-23 19:34:34,471 WARNING KxEScanServiceControl:Initialize KxEScanServiceProvider Result: 0
+2013-03-23 19:34:34,472 DEBUG KxEScanServiceControl:Initialize KSELiteScanService Result:0
+2013-03-23 19:34:34,472 WARNING KxEScanServiceControl:Initialize Result:0
+2013-03-23 19:34:34,473 WARNING KxEScanServiceControl:Start KxEScanServiceProvider Result:0
+2013-03-23 19:34:34,474 WARNING KxEScanServiceControl:Start KSELiteScanService Result:0
+2013-03-23 19:34:37,271 DEBUG KxEScanServiceControl:It failed to query enable upload 
+2013-03-23 19:38:29,648 WARNING KxEScanServiceControl:Stop KxEScanServiceProvider Result:0
+2013-03-23 19:38:29,649 WARNING KxEScanServiceControl:Begin Uninitialize KxEScanServiceProvider
+2013-03-23 19:38:29,890 NOTICE KxEScanServiceControl:KxEScanSPCore Uninitialize
+2013-03-23 19:38:30,137 INFO KxEScanSystem:To end debugging.
+2013-03-23 19:38:30,138 WARNING KxEScanServiceControl:Uninitialize KxEScanServiceProvider Success
+2013-03-23 19:38:30,138 INFO KxEScanServiceControl:To end debugging.
+2013-03-23 19:38:30,140 INFO KxEPipe:To end debugging.
+2013-03-23 19:38:30,140 ALERT kxebase:[kxebase], kxe_base_stop_job failed with error: 0xe0030002
+2013-03-23 19:38:30,159 INFO kxebase:To end debugging.
+2013-04-03 18:34:07,779 INFO kxebase:To start debugging.
+2013-04-03 18:34:07,779 INFO kxethr:To start debugging.
+2013-04-03 18:34:07,779 DEBUG kxebase:It failed to RegOpenKey SOFTWARE\Kingsoft\KISCommon\KXEngine\KxEServ\PluginList with error 0x00000002
+2013-04-03 18:34:07,779 INFO KxEPipe:To start debugging.
+2013-04-03 18:34:07,794 FATAL kxebase:It failed to create the SP "fc02f150-270d-4b19-a4bd-bab72f89ae69" with error:	0x81000004
+2013-04-03 18:34:07,794 FATAL kxebase:It failed to _load_and_start_sp with error:	0x81000004
+2013-04-03 18:34:07,966 INFO KxEScanServiceControl:To start debugging.
+2013-04-03 18:34:07,981 INFO KxEScanSystem:To start debugging.
+2013-04-03 18:34:08,652 NOTICE KxEScanServiceControl:KxEScanSPCore Initialize Result:0
+2013-04-03 18:34:08,652 WARNING KxEScanServiceControl:Initialize KxEScanServiceProvider Result: 0
+2013-04-03 18:34:08,652 DEBUG KxEScanServiceControl:Initialize KSELiteScanService Result:0
+2013-04-03 18:34:08,652 WARNING KxEScanServiceControl:Initialize Result:0
+2013-04-03 18:34:08,652 WARNING KxEScanServiceControl:Start KxEScanServiceProvider Result:0
+2013-04-03 18:34:08,652 WARNING KxEScanServiceControl:Start KSELiteScanService Result:0
+2013-04-03 18:34:08,668 DEBUG KxEScanServiceControl:It failed to query enable upload 
+2013-04-03 18:36:15,023 WARNING KxEScanServiceControl:Stop KxEScanServiceProvider Result:0
+2013-04-03 18:36:15,023 WARNING KxEScanServiceControl:Begin Uninitialize KxEScanServiceProvider
+2013-04-03 18:36:15,179 NOTICE KxEScanServiceControl:KxEScanSPCore Uninitialize
+2013-04-03 18:36:16,099 INFO KxEScanSystem:To end debugging.
+2013-04-03 18:36:16,099 WARNING KxEScanServiceControl:Uninitialize KxEScanServiceProvider Success
+2013-04-03 18:36:16,099 INFO KxEScanServiceControl:To end debugging.
+2013-04-03 18:36:16,099 INFO KxEPipe:To end debugging.
+2013-04-03 18:36:16,099 ALERT kxebase:[kxebase], kxe_base_stop_job failed with error: 0xe0030002
+2013-04-03 18:36:16,099 INFO kxebase:To end debugging.
+2013-04-03 18:36:30,495 INFO kxebase:To start debugging.
+2013-04-03 18:36:30,495 INFO kxethr:To start debugging.
+2013-04-03 18:36:30,495 DEBUG kxebase:It failed to RegOpenKey SOFTWARE\Kingsoft\KISCommon\KXEngine\KxEServ\PluginList with error 0x00000002
+2013-04-03 18:36:30,495 INFO KxEPipe:To start debugging.
+2013-04-03 18:36:30,495 FATAL kxebase:It failed to create the SP "fc02f150-270d-4b19-a4bd-bab72f89ae69" with error:	0x81000004
+2013-04-03 18:36:30,495 FATAL kxebase:It failed to _load_and_start_sp with error:	0x81000004
+2013-04-03 18:36:30,495 INFO KxEScanServiceControl:To start debugging.
+2013-04-03 18:36:30,511 INFO KxEScanSystem:To start debugging.
+2013-04-03 18:36:30,870 NOTICE KxEScanServiceControl:KxEScanSPCore Initialize Result:0
+2013-04-03 18:36:30,870 WARNING KxEScanServiceControl:Initialize KxEScanServiceProvider Result: 0
+2013-04-03 18:36:30,870 DEBUG KxEScanServiceControl:Initialize KSELiteScanService Result:0
+2013-04-03 18:36:30,870 WARNING KxEScanServiceControl:Initialize Result:0
+2013-04-03 18:36:30,870 WARNING KxEScanServiceControl:Start KxEScanServiceProvider Result:0
+2013-04-03 18:36:30,870 WARNING KxEScanServiceControl:Start KSELiteScanService Result:0
+2013-04-03 18:36:30,885 DEBUG KxEScanServiceControl:It failed to query enable upload 
+2013-04-03 18:47:41,529 WARNING KxEScanServiceControl:Stop KxEScanServiceProvider Result:0
+2013-04-03 18:47:41,529 WARNING KxEScanServiceControl:Begin Uninitialize KxEScanServiceProvider
+2013-04-03 18:47:41,668 NOTICE KxEScanServiceControl:KxEScanSPCore Uninitialize
+2013-04-03 18:47:42,248 INFO KxEScanSystem:To end debugging.
+2013-04-03 18:47:42,249 WARNING KxEScanServiceControl:Uninitialize KxEScanServiceProvider Success
+2013-04-03 18:47:42,249 INFO KxEScanServiceControl:To end debugging.
+2013-04-03 18:47:42,251 INFO KxEPipe:To end debugging.
+2013-04-03 18:47:42,251 ALERT kxebase:[kxebase], kxe_base_stop_job failed with error: 0xe0030002
+2013-04-03 18:47:42,252 INFO kxebase:To end debugging.
+2013-04-03 18:47:54,273 INFO kxebase:To start debugging.
+2013-04-03 18:47:54,274 INFO kxethr:To start debugging.
+2013-04-03 18:47:54,275 DEBUG kxebase:It failed to RegOpenKey SOFTWARE\Kingsoft\KISCommon\KXEngine\KxEServ\PluginList with error 0x00000002
+2013-04-03 18:47:54,277 INFO KxEPipe:To start debugging.
+2013-04-03 18:47:54,279 FATAL kxebase:It failed to create the SP "fc02f150-270d-4b19-a4bd-bab72f89ae69" with error:	0x81000004
+2013-04-03 18:47:54,280 FATAL kxebase:It failed to _load_and_start_sp with error:	0x81000004
+2013-04-03 18:47:54,290 INFO KxEScanServiceControl:To start debugging.
+2013-04-03 18:47:54,297 INFO KxEScanSystem:To start debugging.
+2013-04-03 18:47:54,496 NOTICE KxEScanServiceControl:KxEScanSPCore Initialize Result:0
+2013-04-03 18:47:54,496 WARNING KxEScanServiceControl:Initialize KxEScanServiceProvider Result: 0
+2013-04-03 18:47:54,497 DEBUG KxEScanServiceControl:Initialize KSELiteScanService Result:0
+2013-04-03 18:47:54,497 WARNING KxEScanServiceControl:Initialize Result:0
+2013-04-03 18:47:54,499 WARNING KxEScanServiceControl:Start KxEScanServiceProvider Result:0
+2013-04-03 18:47:54,500 WARNING KxEScanServiceControl:Start KSELiteScanService Result:0
+2013-04-03 18:47:54,520 DEBUG KxEScanServiceControl:It failed to query enable upload 
+2013-04-03 19:02:57,454 WARNING KxEScanServiceControl:Stop KxEScanServiceProvider Result:0
+2013-04-03 19:02:57,454 WARNING KxEScanServiceControl:Begin Uninitialize KxEScanServiceProvider
+2013-04-03 19:02:58,265 NOTICE KxEScanServiceControl:KxEScanSPCore Uninitialize
+2013-04-03 19:02:58,564 INFO KxEScanSystem:To end debugging.
+2013-04-03 19:02:58,565 WARNING KxEScanServiceControl:Uninitialize KxEScanServiceProvider Success
+2013-04-03 19:02:58,565 INFO KxEScanServiceControl:To end debugging.
+2013-04-03 19:02:58,608 INFO KxEPipe:To end debugging.
+2013-04-03 19:02:58,609 ALERT kxebase:[kxebase], kxe_base_stop_job failed with error: 0xe0030002
+2013-04-03 19:02:58,657 INFO kxebase:To end debugging.
+2013-04-03 19:03:09,675 INFO kxebase:To start debugging.
+2013-04-03 19:03:09,676 INFO kxethr:To start debugging.
+2013-04-03 19:03:09,676 DEBUG kxebase:It failed to RegOpenKey SOFTWARE\Kingsoft\KISCommon\KXEngine\KxEServ\PluginList with error 0x00000002
+2013-04-03 19:03:09,679 INFO KxEPipe:To start debugging.
+2013-04-03 19:03:09,681 FATAL kxebase:It failed to create the SP "fc02f150-270d-4b19-a4bd-bab72f89ae69" with error:	0x81000004
+2013-04-03 19:03:09,681 FATAL kxebase:It failed to _load_and_start_sp with error:	0x81000004
+2013-04-03 19:03:09,761 INFO KxEScanServiceControl:To start debugging.
+2013-04-03 19:03:09,768 INFO KxEScanSystem:To start debugging.
+2013-04-03 19:03:10,085 NOTICE KxEScanServiceControl:KxEScanSPCore Initialize Result:0
+2013-04-03 19:03:10,086 WARNING KxEScanServiceControl:Initialize KxEScanServiceProvider Result: 0
+2013-04-03 19:03:10,086 DEBUG KxEScanServiceControl:Initialize KSELiteScanService Result:0
+2013-04-03 19:03:10,087 WARNING KxEScanServiceControl:Initialize Result:0
+2013-04-03 19:03:10,089 WARNING KxEScanServiceControl:Start KxEScanServiceProvider Result:0
+2013-04-03 19:03:10,090 WARNING KxEScanServiceControl:Start KSELiteScanService Result:0
+2013-04-03 19:03:10,108 DEBUG KxEScanServiceControl:It failed to query enable upload 
+2013-04-03 19:13:28,363 WARNING KxEScanServiceControl:Stop KxEScanServiceProvider Result:0
+2013-04-03 19:13:28,364 WARNING KxEScanServiceControl:Begin Uninitialize KxEScanServiceProvider
+2013-04-03 19:13:28,426 NOTICE KxEScanServiceControl:KxEScanSPCore Uninitialize
+2013-04-03 19:13:28,615 INFO KxEScanSystem:To end debugging.
+2013-04-03 19:13:28,615 WARNING KxEScanServiceControl:Uninitialize KxEScanServiceProvider Success
+2013-04-03 19:13:28,616 INFO KxEScanServiceControl:To end debugging.
+2013-04-03 19:13:28,617 INFO KxEPipe:To end debugging.
+2013-04-03 19:13:28,617 ALERT kxebase:[kxebase], kxe_base_stop_job failed with error: 0xe0030002
+2013-04-03 19:13:28,618 INFO kxebase:To end debugging.
+2013-04-03 19:13:35,991 INFO kxebase:To start debugging.
+2013-04-03 19:13:35,992 INFO kxethr:To start debugging.
+2013-04-03 19:13:35,992 DEBUG kxebase:It failed to RegOpenKey SOFTWARE\Kingsoft\KISCommon\KXEngine\KxEServ\PluginList with error 0x00000002
+2013-04-03 19:13:35,995 INFO KxEPipe:To start debugging.
+2013-04-03 19:13:35,996 FATAL kxebase:It failed to create the SP "fc02f150-270d-4b19-a4bd-bab72f89ae69" with error:	0x81000004
+2013-04-03 19:13:35,997 FATAL kxebase:It failed to _load_and_start_sp with error:	0x81000004
+2013-04-03 19:13:36,007 INFO KxEScanServiceControl:To start debugging.
+2013-04-03 19:13:36,014 INFO KxEScanSystem:To start debugging.
+2013-04-03 19:13:36,211 NOTICE KxEScanServiceControl:KxEScanSPCore Initialize Result:0
+2013-04-03 19:13:36,212 WARNING KxEScanServiceControl:Initialize KxEScanServiceProvider Result: 0
+2013-04-03 19:13:36,212 DEBUG KxEScanServiceControl:Initialize KSELiteScanService Result:0
+2013-04-03 19:13:36,213 WARNING KxEScanServiceControl:Initialize Result:0
+2013-04-03 19:13:36,214 WARNING KxEScanServiceControl:Start KxEScanServiceProvider Result:0
+2013-04-03 19:13:36,216 WARNING KxEScanServiceControl:Start KSELiteScanService Result:0
+2013-04-03 19:13:36,234 DEBUG KxEScanServiceControl:It failed to query enable upload 
+2013-05-01 10:14:30,108 INFO kxebase:To start debugging.
+2013-05-01 10:14:30,109 INFO kxethr:To start debugging.
+2013-05-01 10:14:30,109 DEBUG kxebase:It failed to RegOpenKey SOFTWARE\Kingsoft\KISCommon\KXEngine\KxEServ\PluginList with error 0x00000002
+2013-05-01 10:14:30,119 INFO KxEPipe:To start debugging.
+2013-05-01 10:14:30,134 FATAL kxebase:It failed to create the SP "fc02f150-270d-4b19-a4bd-bab72f89ae69" with error:	0x81000004
+2013-05-01 10:14:30,139 FATAL kxebase:It failed to _load_and_start_sp with error:	0x81000004
+2013-05-01 10:14:30,357 INFO KxEScanServiceControl:To start debugging.
+2013-05-01 10:14:30,450 INFO KxEScanSystem:To start debugging.
+2013-05-01 10:14:31,071 NOTICE KxEScanServiceControl:KxEScanSPCore Initialize Result:0
+2013-05-01 10:14:31,071 WARNING KxEScanServiceControl:Initialize KxEScanServiceProvider Result: 0
+2013-05-01 10:14:31,071 DEBUG KxEScanServiceControl:Initialize KSELiteScanService Result:0
+2013-05-01 10:14:31,072 WARNING KxEScanServiceControl:Initialize Result:0
+2013-05-01 10:14:31,087 WARNING KxEScanServiceControl:Start KxEScanServiceProvider Result:0
+2013-05-01 10:14:31,087 WARNING KxEScanServiceControl:Start KSELiteScanService Result:0
+2013-05-01 10:14:31,141 DEBUG KxEScanServiceControl:It failed to query enable upload 
+2013-05-01 10:16:39,608 WARNING KxEScanServiceControl:Stop KxEScanServiceProvider Result:0
+2013-05-01 10:16:39,609 WARNING KxEScanServiceControl:Begin Uninitialize KxEScanServiceProvider
+2013-05-01 10:16:39,609 NOTICE KxEScanServiceControl:KxEScanSPCore Uninitialize
+2013-05-01 10:16:39,746 INFO KxEScanSystem:To end debugging.
+2013-05-01 10:16:39,746 WARNING KxEScanServiceControl:Uninitialize KxEScanServiceProvider Success
+2013-05-01 10:16:39,747 INFO KxEScanServiceControl:To end debugging.
+2013-05-01 10:16:39,748 INFO KxEPipe:To end debugging.
+2013-05-01 10:16:39,748 ALERT kxebase:[kxebase], kxe_base_stop_job failed with error: 0xe0030002
+2013-05-01 10:16:39,755 INFO kxebase:To end debugging.
+2013-05-01 10:21:55,566 INFO kxebase:To start debugging.
+2013-05-01 10:21:55,567 INFO kxethr:To start debugging.
+2013-05-01 10:21:55,568 DEBUG kxebase:It failed to RegOpenKey SOFTWARE\Kingsoft\KISCommon\KXEngine\KxEServ\PluginList with error 0x00000002
+2013-05-01 10:21:55,570 INFO KxEPipe:To start debugging.
+2013-05-01 10:21:55,572 FATAL kxebase:It failed to create the SP "fc02f150-270d-4b19-a4bd-bab72f89ae69" with error:	0x81000004
+2013-05-01 10:21:55,573 FATAL kxebase:It failed to _load_and_start_sp with error:	0x81000004
+2013-05-01 10:21:55,583 INFO KxEScanServiceControl:To start debugging.
+2013-05-01 10:21:55,591 INFO KxEScanSystem:To start debugging.
+2013-05-01 10:21:55,635 NOTICE KxEScanServiceControl:KxEScanSPCore Initialize Result:0
+2013-05-01 10:21:55,636 WARNING KxEScanServiceControl:Initialize KxEScanServiceProvider Result: 0
+2013-05-01 10:21:55,637 DEBUG KxEScanServiceControl:Initialize KSELiteScanService Result:0
+2013-05-01 10:21:55,637 WARNING KxEScanServiceControl:Initialize Result:0
+2013-05-01 10:21:55,638 WARNING KxEScanServiceControl:Start KxEScanServiceProvider Result:0
+2013-05-01 10:21:55,640 WARNING KxEScanServiceControl:Start KSELiteScanService Result:0
+2013-05-01 10:22:00,959 DEBUG KxEScanServiceControl:It failed to query enable upload 
+2013-05-01 10:22:11,417 WARNING KxEScanServiceControl:Stop KxEScanServiceProvider Result:0
+2013-05-01 10:22:11,417 WARNING KxEScanServiceControl:Begin Uninitialize KxEScanServiceProvider
+2013-05-01 10:22:11,418 NOTICE KxEScanServiceControl:KxEScanSPCore Uninitialize
+2013-05-01 10:22:11,520 INFO KxEScanSystem:To end debugging.
+2013-05-01 10:22:11,521 WARNING KxEScanServiceControl:Uninitialize KxEScanServiceProvider Success
+2013-05-01 10:22:11,521 INFO KxEScanServiceControl:To end debugging.
+2013-05-01 10:22:11,523 INFO KxEPipe:To end debugging.
+2013-05-01 10:22:11,523 ALERT kxebase:[kxebase], kxe_base_stop_job failed with error: 0xe0030002
+2013-05-01 10:22:11,524 INFO kxebase:To end debugging.
+2013-05-01 10:23:36,815 INFO kxebase:To start debugging.
+2013-05-01 10:23:36,816 INFO kxethr:To start debugging.
+2013-05-01 10:23:36,817 DEBUG kxebase:It failed to RegOpenKey SOFTWARE\Kingsoft\KISCommon\KXEngine\KxEServ\PluginList with error 0x00000002
+2013-05-01 10:23:36,819 INFO KxEPipe:To start debugging.
+2013-05-01 10:23:36,821 FATAL kxebase:It failed to create the SP "fc02f150-270d-4b19-a4bd-bab72f89ae69" with error:	0x81000004
+2013-05-01 10:23:36,822 FATAL kxebase:It failed to _load_and_start_sp with error:	0x81000004
+2013-05-01 10:23:36,831 INFO KxEScanServiceControl:To start debugging.
+2013-05-01 10:23:36,838 INFO KxEScanSystem:To start debugging.
+2013-05-01 10:23:36,881 NOTICE KxEScanServiceControl:KxEScanSPCore Initialize Result:0
+2013-05-01 10:23:36,882 WARNING KxEScanServiceControl:Initialize KxEScanServiceProvider Result: 0
+2013-05-01 10:23:36,882 DEBUG KxEScanServiceControl:Initialize KSELiteScanService Result:0
+2013-05-01 10:23:36,883 WARNING KxEScanServiceControl:Initialize Result:0
+2013-05-01 10:23:36,884 WARNING KxEScanServiceControl:Start KxEScanServiceProvider Result:0
+2013-05-01 10:23:36,885 WARNING KxEScanServiceControl:Start KSELiteScanService Result:0
+2013-05-01 10:23:49,405 DEBUG KxEScanServiceControl:It failed to query enable upload 
+2013-05-01 10:24:59,169 WARNING KxEScanServiceControl:Stop KxEScanServiceProvider Result:0
+2013-05-01 10:24:59,169 WARNING KxEScanServiceControl:Begin Uninitialize KxEScanServiceProvider
+2013-05-01 10:24:59,170 NOTICE KxEScanServiceControl:KxEScanSPCore Uninitialize
+2013-05-01 10:24:59,319 INFO KxEScanSystem:To end debugging.
+2013-05-01 10:24:59,320 WARNING KxEScanServiceControl:Uninitialize KxEScanServiceProvider Success
+2013-05-01 10:24:59,320 INFO KxEScanServiceControl:To end debugging.
+2013-05-01 10:24:59,321 INFO KxEPipe:To end debugging.
+2013-05-01 10:24:59,322 ALERT kxebase:[kxebase], kxe_base_stop_job failed with error: 0xe0030002
+2013-05-01 10:24:59,323 INFO kxebase:To end debugging.

@@ -1,0 +1,21 @@
+我这个破解白痴，原来想找个破解版的，瞎猫碰见死老鼠竟然用OD成功破解了……
+
+ProcProtectCtrl.dll
+
+1000106E    F3:AB            rep stos dword ptr es:[edi]
+10001070    66:AB            stos word ptr es:[edi]
+10001072    52               push edx
+10001073    33DB             xor ebx,ebx
+10001075    AA               stos byte ptr es:[edi]
+10001076    FF15 BC810010    call dword ptr ds:[<&USER32.IsWindow>]           ;USER32.IsWindow
+1000107C    85C0             test eax,eax
+
+原 1000107E    EB 77            jnz short ProcProt.100010F7
+改为 1000107E    EB 77            jmp short ProcProt.100010F7
+
+10001080    50               push eax
+10001081    50               push eax
+10001082    FF15 CC800010    call dword ptr ds:[<&KERNEL32.GetModuleHandleA>] ; kernel32.GetModuleHandleA
+10001088    50               push eax
+
+其实我对破解真的一点都不懂……天助我也。。！

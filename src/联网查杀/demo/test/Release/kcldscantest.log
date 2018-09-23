@@ -1,0 +1,24 @@
+﻿生成启动时间为 2013/4/3 星期三 19:13:10。
+     1>项目“C:\Users\Administrator\Desktop\kcloudapi\demo\test\kcldscantest.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Release\kcldscantest.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../publish/kcld_scan /Zi /nologo /W3 /WX- /Od /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Yu"StdAfx.h" /Fp"Release\kcldscantest.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt testcustomscan.cpp
+         testcustomscan.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\kcloudapi\demo\test\Release\kcldscantest.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\Administrator\Desktop\kcloudapi\demo\test\Release\kcldscantest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\kcloudapi\demo\test\Release\kcldscantest.lib" /MACHINE:X86 Release\kcldscantest.obj
+         Release\stdafx.obj
+         Release\testcustomscan.obj
+         正在生成代码
+     1>c:\users\administrator\desktop\kcloudapi\demo\test\testcustomscan.cpp(251): warning C4700: 使用了未初始化的局部变量“DesText”
+         已完成代码的生成
+         kcldscantest.vcxproj -> C:\Users\Administrator\Desktop\kcloudapi\demo\test\Release\kcldscantest.exe
+       FinalizeBuildStatus:
+         正在删除文件“Release\kcldscantest.unsuccessfulbuild”。
+         正在对“Release\kcldscantest.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\Desktop\kcloudapi\demo\test\kcldscantest.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.72

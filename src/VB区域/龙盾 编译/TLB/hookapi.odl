@@ -1,0 +1,41 @@
+[
+	uuid(9D81A783-AD4C-47ca-BD34-03429E336487),
+	helpstring("hook api library"),
+	lcid(0x0),
+	version(1.0)
+]
+
+library MyAPIs
+{
+	importlib("stdole2.tlb");
+	
+	typedef [public] long HWND;
+    typedef [public] long DWORD;
+    typedef [public] long UINT;
+    typedef [public] long WPARAM;
+    typedef [public] long LPARAM;
+    typedef [public] long HANDLE;
+    
+	[dllname("kernel32")]
+	module kernel32
+	{
+		[entry("WriteProcessMemory")] long WriteProcessMemory ([in] HANDLE hProcess,
+		[in] void* lpBaseAddress, [in] void* lpBuffer, [in] DWORD nSize, [in] DWORD* lpNumberOfBytesWritten);
+		[entry("ReadProcessMemory")] long ReadProcessMemory ([in] HANDLE hProcess,
+		[in] void* lpBaseAddress, [in] void* lpBuffer, [in] DWORD nSize, [in] DWORD* lpNumberOfBytesWritten);
+		[entry("GetCurrentProcess")] HANDLE GetCurrentProcess();
+		[entry("RtlMoveMemory")] void CopyMemory([in] void* pDest, [in] void*
+       pSrc, [in] long ByteLen);
+		[entry("GetModuleHandleA")] long GetModuleHandle ([in] LPSTR lpModuleName);
+		[entry("GetProcAddress")] long GetProcAddress ([in] DWORD hModule, [in] LPSTR lpProcName);
+	};
+	
+	[dllname("user32")]
+	module User32
+	{
+		[entry("MessageBoxA")] long MessageBox ([in] HANDLE hWnd, [in] LPSTR lpText, 
+		[in] LPSTR lpCaption, [in] UINT uType);
+		[entry("MessageBoxW")] long MessageBoxW ([in] HANDLE hWnd, [in] LPWSTR lpText, 
+		[in] LPWSTR lpCaption, [in] UINT uType);
+	};
+};

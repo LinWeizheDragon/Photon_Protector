@@ -1,0 +1,8 @@
+行 3: 属性 Caption 在 frmMain 中必须为引号括起来的串
+行 8: 属性 LinkTopic 在 frmMain 中必须为引号括起来的串
+行 13: 属性 Caption 在 cmdStartModification 中必须为引号括起来的串
+行 21: 属性 Caption 在 cmdStartDelete 中必须为引号括起来的串
+行 29: 属性 Caption 在 cmdStartCreate 中必须为引号括起来的串
+行 37: 属性 Caption 在 cmdStopModification 中必须为引号括起来的串
+行 45: 属性 Caption 在 cmdStopDelete 中必须为引号括起来的串
+行 53: 属性 Caption 在 cmdStopCreate 中必须为引号括起来的串

@@ -1,0 +1,9 @@
+[历史]
+1=#P0#=mb	#P1#=WndProc	#P2#=工程1/Module1/WndProc	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20100719102157	#P7#=0	#P8#=2	.
+2=#P0#=mb	#P1#=Form_Load	#P2#=工程1/Form1/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20100719092641	#P7#=0	#P8#=7	.
+3=#P0#=mb	#P1#=cmdCommand1_Click	#P2#=工程1/Form1/cmdCommand1_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20100718163225	#P7#=0	#P8#=1	.
+4=#P0#=mb	#P1#=MapMemFile	#P2#=工程1/ShareMemMod/MapMemFile	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20100718161947	#P7#=0	#P8#=10	.
+5=#P0#=mb	#P1#=GetData	#P2#=工程1/ShareMemMod/GetData	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20100717134826	#P7#=0	#P8#=2	.
+6=#P0#=mb	#P1#=cmdCommand2_Click	#P2#=工程1/Form1/cmdCommand2_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20100717124347	#P7#=0	#P8#=2	.
+7=#P0#=mb	#P1#=UnMapMemFile	#P2#=工程1/ShareMemMod/UnMapMemFile	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20100717122124	#P7#=0	#P8#=-1	.
+8=#P0#=mb	#P1#=Form_Unload	#P2#=工程1/Form1/Form_Unload	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20100717120541	#P7#=0	#P8#=1	.

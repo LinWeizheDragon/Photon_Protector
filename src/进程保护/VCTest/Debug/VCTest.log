@@ -1,0 +1,14 @@
+﻿生成启动时间为 2013/4/30 星期二 22:14:07。
+     1>项目“C:\Users\Administrator\Desktop\意天进程保护组件独家破解版\VCTest\VCTest.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\VCTest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\inc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\VCTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\statreg.h(1643): fatal error C1088: 无法刷新编译器中间文件:“Debug\VCTest.pch”: No space left on device
+     1>已完成生成项目“C:\Users\Administrator\Desktop\意天进程保护组件独家破解版\VCTest\VCTest.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.01
